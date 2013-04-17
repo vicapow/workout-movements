@@ -10,6 +10,14 @@ module.exports = {
     // youtube video ID that demonstrates the workout
     , videoId : 'yFSBGIPMa9A'
   }
+  , 'shoulder press' : {
+    label : 'Shoulder Press'
+    , metrics : {
+      reps : { value : 1, units : null }
+      , weight : { value : 135, units : 'pounds' }
+    }
+    , videoId : '3FpoUQT98'
+  }
   , 'front squat' : {
     label : 'Front Squat'
     , type : 'lifting'
@@ -117,6 +125,14 @@ module.exports = {
       , weight : { value : 135, units : 'pounds' }
     }
     , videoId : 'gHIMIgrMEaQ'
+  }
+  , 'snatch balance' : {
+    label : 'Snatch Balance'
+    , type : 'lifting'
+    , metrics : {
+      reps : { value : 20, units : null }
+      , weight : { value : 135, units : 'pounds' }
+    }
   }
   , 'power snatch' : {
     label : 'Power Snatch'
@@ -307,7 +323,7 @@ module.exports = {
     }
     , videoId : 'S21wtEVDvEU'
   }
-  , 'chest to bar' : {
+  , 'chest to bar pull up' : {
     label : 'Chest to Bar Pull Up'
     , type : 'gymnastic'
     , metrics : {
@@ -366,6 +382,15 @@ module.exports = {
     , videoId : 'vfmwmMTuTHc'
     , parent : 'handstand push up'
   }
+  , 'pike handstand push up' : {
+    label : 'Pike Handstand Push Up'
+    , type : 'gymnastic'
+    , metrics : {
+      reps : { value : 20, units : null }
+    }
+    , videoId : 'EA8g7q9jauM'
+    , parent : 'handstand push up'
+  }
   , 'pistol squat' : {
     label : 'Pistol Squat'
     , type : 'gymnastic'
@@ -419,6 +444,15 @@ module.exports = {
       , weight : { value : 135, units : 'pounds' }
     }
     , videoId : 'G1pQ_1rgLls'
+  }
+  , 'squat snatch' : {
+    label : 'Squat Snatch'
+    , type : 'lifting'
+    , metrics : {
+      reps : { value : 1, units : null }
+      , weight : { value : 135, units : 'pounds' }
+    }
+    , videoId : 'EXntbWGJEqE'
   }
   , 'dumbbell hang squat clean' : {
     label : 'Dumbbell Hang Squat Clean'
