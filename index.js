@@ -483,6 +483,16 @@ module.exports = {
     , videoId : 'bzQJB9XHd5c'
     , parent : 'clean'
   }
+  , 'hang clean' : {
+    label : 'Hang Clean'
+    , type : 'lifting'
+    , metrics : {
+      reps : { value : 20, units : null }
+      , weight : { value : 135, units : 'pounds' }
+    }
+    , videoId : 'Da1axAh815s'
+    , parent : 'clean'
+  }
   , 'medicine ball clean' : {
     label : 'Medicine Ball Clean'
     , type : 'gymnastic'
@@ -548,6 +558,7 @@ module.exports = {
       reps : { value : 20, units : null }
       , weight : { value : 2, units : 'pood' }
     }
+    , videoId : 'GdAXt7YyGe0'
   }
   , 'bear crawl' : {
     label : 'Bear Crawl'
