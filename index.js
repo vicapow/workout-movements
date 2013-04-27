@@ -219,6 +219,14 @@ module.exports = {
     }
     , videoId : 'IxrzCG_7FH4'
   }
+  , 'box jump over' : {
+    label : 'Box Jump Over'
+    , metrics : {
+      height : { value : 20, units : 'inches' }
+      , reps : { value : 10, units : null }
+    }
+    , videoId : 'sL-hS2Qg1BU'
+  }
   , 'wall ball shot' : {
     label : 'Wall-Ball Shot'
     , type : 'gymnastic'
