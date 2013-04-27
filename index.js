@@ -501,6 +501,15 @@ module.exports = {
     , videoId : 'Da1axAh815s'
     , parent : 'clean'
   }
+  , 'high hang clean' : {
+    label : 'High Hang Clean'
+    , type : 'lifting'
+    , metrics : {
+      reps : { value : 20, units : null }
+      , weight : { value : 135, units : 'pounds' }
+    }
+    , parent : 'hang clean'
+  }
   , 'medicine ball clean' : {
     label : 'Medicine Ball Clean'
     , type : 'gymnastic'
