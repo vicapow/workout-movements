@@ -1,6 +1,6 @@
 {
   "name": "workout-movements",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "description of common workout types and their metrics",
   "main": "index.js",
   "scripts": {
