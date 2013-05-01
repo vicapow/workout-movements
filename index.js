@@ -272,6 +272,15 @@ module.exports = {
     }
     , videoId : 'ifOBltCCRZw'
   }
+  , 'weighted pull up' : {
+    label : 'Weighted Pull Up'
+    , type : 'gymnastic'
+    , metrics : {
+      reps : { value : 20, units : null }
+      , weight : { value : 10, units : 'pounds' }
+    }
+    , videoId : 'iO3JiVKekac'
+  }
   , 'strict pull up' : {
     label : 'Strict Pull Up'
     , type : 'gymnastic'
