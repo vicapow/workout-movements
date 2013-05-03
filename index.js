@@ -90,6 +90,26 @@ module.exports = {
     }
     , videoId : '0dvov7IHvL0'
   }
+  , 'russian kettle bell swing' : {
+    label : 'Russian Kettle Bell Swing'
+    , type : 'lifting'
+    , metrics : {
+      reps : { value : 20, units : null }
+      , weight : { value : 1.5, units : 'poods' }
+    }
+    , parent : 'kettle bell swing'
+    , videoId : 'MkdLCysfbOI'
+  }
+  , 'one hand russian kettle bell swing' : {
+    label : '1 Hand Russian KB Swing'
+    , type : 'lifting'
+    , metrics : {
+      reps : { value : 20, units : null }
+      , weight : { value : 1.5, units : 'poods' }
+    }
+    , parent : 'russian kettle bell swing'
+    , videoId : 'MkdLCysfbOI'
+  }
   , 'push jerk' : {
     label : 'Push Jerk'
     , type : 'lifting'
@@ -219,12 +239,23 @@ module.exports = {
     }
     , videoId : 'IxrzCG_7FH4'
   }
+  , 'burpee box jump' : {
+    label : 'Burpee Box Jump'
+    , type : 'gymnastic'
+    , metrics : {
+      height : { value : 24, units : 'inches' }
+      , reps : { value : 10, units : null }
+    }
+    , parent : 'box jump'
+    , videoId : 'CxNHTt23FrY'
+  }
   , 'box jump over' : {
     label : 'Box Jump Over'
     , metrics : {
       height : { value : 20, units : 'inches' }
       , reps : { value : 10, units : null }
     }
+    , parent : 'box jump'
     , videoId : 'sL-hS2Qg1BU'
   }
   , 'wall ball shot' : {
