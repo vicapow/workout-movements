@@ -642,7 +642,7 @@ module.exports = {
     , videoId : '6SAdh7sStRw'
   }
   , 'lowers from inverted hang' : {
-    label : 'Lowers From Interted Hang'
+    label : 'Lowers From Inverted Hang'
     , type : 'gymnastic'
     , metrics : {
       reps : { value : 20, units : null }
