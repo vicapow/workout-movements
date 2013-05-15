@@ -27,6 +27,23 @@ module.exports = {
     }
     , videoId : 'JAG8iY6InbY'
   }
+  , 'curtis p' : {
+    label : 'Curtis P'
+    , type : 'lifting'
+    , metrics : {
+      reps : { value : 1, units : null }
+      , weight : { value : 135, units : 'pounds' }
+    }
+    , videoId : 'uLff8fhPIQg'
+  }
+  , 'man maker' : {
+    label : 'Man Maker'
+    , metrics : {
+      reps : { value : 1, units : null }
+      , weight : { value : 60, units : 'pounds' }
+    }
+    , videoId : 'gczI5sINn9U'
+  }
   , 'back squat' : {
     label : 'Back Squat'
     , type : 'lifting'
